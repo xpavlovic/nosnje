@@ -186,38 +186,51 @@ img {
 .likusa .hairstyle {
   display: none;
   margin: 0;
-  position: absolute;
+  position: relative;
 }
+.hairstyle {
+  top: -586px;
+  bottom: 59%;
+  right: 2%;
+}
+
+.hairstyle ~ #hairstyle2 {
+  top: -584px;
+}
+.hairstyle ~ #hairstyle5 {
+  top: -608px;
+}
+/*
 #hairstyle1 {
-  top: 45px;
-  /* bottom: 1%; */
-  right: 10%;
-  height: 205px;
+  top: -586px;
+  bottom: 59%;
+  right: 2%;
 }
 #hairstyle2 {
   top: 54px;
-  /* bottom: 1%; */
+  /* bottom: 1%; 
   right: 11%;
   height: 198px;
 }
 #hairstyle3 {
   top: 50px;
-  /* bottom: 1%; */
+  /* bottom: 1%; 
   right: 7%;
   height: 220px;
 }
 #hairstyle4 {
   top: 45px;
-  /* bottom: 1%; */
+  /* bottom: 1%; 
   right: 10%;
   height: 205px;
 }
 #hairstyle5 {
   top: 24px;
-  /* bottom: 1%; */
+  /* bottom: 1%; 
   right: 11%;
   height: 198px;
 }
+*/
 
 .likusa .skirtsStyle {
   display: none;
@@ -226,10 +239,16 @@ img {
 }
 
 .skirtsStyle {
-  top: 232px;
-  /* bottom: 1%; */
-  right: 10%;
-  height: 200px;
+  top: 224px;
+  /* bottom: 59%; */
+  right: 16%;
+}
+
+.skirtsStyle ~ #botke {
+  top: -625px;
+}
+.skirtsStyle ~ #linaje {
+  top: -625px;
 }
 
 .likusa .keceljeStyle {
@@ -239,8 +258,7 @@ img {
 }
 
 .keceljeStyle {
-  top: 232px;
-  /* bottom: 1%; */
-  right: 19%;
-  height: 170px;
+  top: 226px;
+  /* bottom: 59%; */
+  right: 25%;
 }

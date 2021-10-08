@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Nošnje</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body id="body">
+    <div class="menu">
+        <div class="item a">
+            <div class="gombik1" >
+            <img src="./pnge/meni/gombike/gombik 1.png" alt="accessories"/>
+            </div>
+            <div class="gombik2" onclick="showHairOptions()">
+            <img src="./pnge/meni/gombike/gombik 2.png" alt="hair" id="vlasyGombik"/>
+            </div>
+            <div class="gombik3">
+            <img src="./pnge/meni/gombike/gombik 3.png" alt="top"/>
+            </div>
+            <div class="gombik4">
+            <img src="./pnge/meni/gombike/gombik 4.png" alt="shirt"/>
+            </div>
+            <div class="gombik5" onclick="showSkirtOptions()">
+            <img src="./pnge/meni/gombike/gombik 5.png" alt="skirt" id="suknaGombik"/>
+            </div>
+            <div class="gombik6" onclick="showKecelaOptions()">
+            <img src="./pnge/meni/gombike/gombik 6.png" alt="kecelja" id="keceljaGombik"/>
+            </div>
+        </div>
+        <div class="item sukne" id="sukne">
+            <div class="skrits">
+                <div>
+                    <img src="./pnge/sukne/oblike/oblik 1.png" alt="accessories" onclick="showFirstSkirt()" id="oblik1"/>                   
+                    <img src="./pnge/sukne/oblike/oblik 2.png" alt="accessories"/>
+                </div>
+                <div >
+                        <img src="./pnge/sukne/oblike/oblik 3.png" alt="accessories"/>                    
+                        <img src="./pnge/sukne/oblike/oblik 4.png" alt="accessories"/>
+                </div>
+            </div>
+            <div class="colors">
+                <div class="pt1">
+                    <div class="circle pinkC" onclick="showSkritsStyle('skirtPink')"></div>
+                    <div class="circle redC" onclick="showSkritsStyle('skirtRed')"></div>
+                    <div class="circle orangeC" onclick="showSkritsStyle('skirtOrange')"></div>
+                    <div class="circle yellowC" onclick="showSkritsStyle('skirtYellow')"></div>
+                </div>
+            <br/>
+                <div class="pt2">
+                    <div class="circle greenC" onclick="showSkritsStyle('skirtGreen')"></div>
+                    <div class="circle tirkizC" onclick="showSkritsStyle('skirtGreen2')"></div>
+                    <div class="circle blueC" onclick="showSkritsStyle('skirtBlue')"></div>
+                    <div class="circle purpleC" onclick="showSkritsStyle('skirtPurple')"></div>
+                </div>
+            <br/>
+                <div class="pt3">
+                    <div class="circle blackC" onclick="showSkritsStyle('skirtBlack')"></div>
+                    <div class="circle whiteC" onclick="showSkritsStyle('skirtWhite')"></div> 
+                </div> 
+            </div>
+            <div class="pattern">
+                <img src="./pnge/sukne/farbi/bobke.png" alt="bobke" onclick="showPatter('botke')" id="bobke" />
+                
+                <img src="./pnge/sukne/farbi/linaje.png" alt="linaje" onclick="showPatter('linaje')" id="ciari"/>
+            </div>
+        </div>
+
+        <div class="item vlasy" style="visibility: hidden;" id="vlasy">
+            <div class="hairs">
+                <div class="vlaske">
+                    <img src="./pnge/meni/vlsi ikonice/1.png" alt="accessories" style="height: 65px;" id="vlasy1" onclick="showHairStyle('hairstyle1')"/>                   
+                    <img src="./pnge/meni/vlsi ikonice/2.png" alt="accessories" style="height: 65px;" id="vlasy2" onclick="showHairStyle('hairstyle2')"/>
+                </div>
+                <div class="vlaske">
+                        <img src="./pnge/meni/vlsi ikonice/3.png" alt="accessories" style="height: 65px;" id="vlasy3" onclick="showHairStyle('hairstyle3')"/>                    
+                        <img src="./pnge/meni/vlsi ikonice/4.png" alt="accessories" style="height: 65px;" id="vlasy4" onclick="showHairStyle('hairstyle4')"/>
+                </div>
+                <img src="./pnge/meni/vlsi ikonice/5.png" style="height: 65px;" id="vlasy5" onclick="showHairStyle('hairstyle5')"/>
+            </div>
+
+            <div class="colors">
+                <div class="pt1">
+                    <div class="circle pinkC"></div>
+                    <div class="circle redC"></div>
+                    <div class="circle orangeC"></div>
+                    <div class="circle yellowC"></div>
+                </div>
+            <br/>
+                <div class="pt2">
+                    <div class="circle greenC"></div>
+                    <div class="circle tirkizC"></div>
+                    <div class="circle blueC"></div>
+                    <div class="circle purpleC"></div>
+                </div>
+            <br/>
+                <div class="pt3">
+                    <div class="circle blackC"></div>
+                    <div class="circle whiteC"></div> 
+                </div> 
+            </div>
+
+        </div>
+
+        <div class="item kecela" id="kecele">
+            <div class="kecele">
+                <div >
+                    <img src="./pnge/meni/kecelje_ikonice/1.png" alt="accessories" style="height: 100px;" onclick="showKecelje('kecelja5')" id="prva"/>                   
+                    <img src="./pnge/meni/kecelje_ikonice/2.png" alt="accessories" style="height: 100px;" onclick="showKecelje('kecelja6')" id="druha"/>
+                </div>
+                <div >
+                        <img src="./pnge/meni/kecelje_ikonice/3.png" alt="accessories" style="height: 100px;" onclick="showKecelje('kecelja4')" id="treca"/>                    
+                        <img src="./pnge/meni/kecelje_ikonice/4.png" alt="accessories" style="height: 100px;" onclick="showKecelje('kecelja3')" id="stvrta"/>
+                </div>
+                <div >
+                    <img src="./pnge/meni/kecelje_ikonice/5.png" alt="accessories" style="height: 100px;" onclick="showKecelje('kecelja2')" id="piata" />                    
+                    <img src="./pnge/meni/kecelje_ikonice/6.png" alt="accessories" style="height: 100px;" onclick="showKecelje('kecelja1')" id="siesta"/>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="likusa" id="likusica">
+        <img src="./pnge/likusa/likusa.png" style="height: 600px;"/>
+        <!--hairstyle-->
+        <img src="./pnge/likusa/vlasi/1.png" class="hairstyle" id="hairstyle1"/>
+        <img src="./pnge/likusa/vlasi/2.png" class="hairstyle" id="hairstyle2" />
+        <img src="./pnge/likusa/vlasi/3.png" class="hairstyle" id="hairstyle3" />
+        <img src="./pnge/likusa/vlasi/4.png" class="hairstyle" id="hairstyle4" />
+        <img src="./pnge/likusa/vlasi/5.png" class="hairstyle" id="hairstyle5" />
+
+        <!--skirts-->
+        <img src="./pnge/likusa/sukne/biela.png" class="skirtsStyle" id="skirtWhite" />
+        <img src="./pnge/likusa/sukne/cervena.png" class="skirtsStyle" id="skirtRed" />
+        <img src="./pnge/likusa/sukne/cierna.png" class="skirtsStyle" id="skirtBlack" />
+        <img src="./pnge/likusa/sukne/lilova.png" class="skirtsStyle" id="skirtPurple" />
+        <img src="./pnge/likusa/sukne/modra.png" class="skirtsStyle" id="skirtBlue" />
+        <img src="./pnge/likusa/sukne/mrkvova.png" class="skirtsStyle" id="skirtOrange" />
+        <img src="./pnge/likusa/sukne/pink.png" class="skirtsStyle" id="skirtPink" />
+        <img src="./pnge/likusa/sukne/zelena 2.png" class="skirtsStyle" id="skirtGreen2" />
+        <img src="./pnge/likusa/sukne/zelena.png" class="skirtsStyle" id="skirtGreen" />
+        <img src="./pnge/likusa/sukne/zlta.png" class="skirtsStyle" id="skirtYellow" />
+
+        <!--pattern for Skirts-->        
+        <img src="./pnge/likusa/dezeni/botke.png" class="skirtsStyle" id="botke" />
+        <img src="./pnge/likusa/dezeni/linaje.png" class="skirtsStyle" id="linaje" />
+
+        <!--kecelje-->
+        <img src="./pnge/likusa/kecelje/1.png" class="keceljeStyle" id="kecelja1"/>
+        <img src="./pnge/likusa/kecelje/2.png" class="keceljeStyle" id="kecelja2"/>
+        <img src="./pnge/likusa/kecelje/3.png" class="keceljeStyle" id="kecelja3"/>
+        <img src="./pnge/likusa/kecelje/4.png" class="keceljeStyle" id="kecelja4"/>
+        <img src="./pnge/likusa/kecelje/5.png" class="keceljeStyle" id="kecelja5"/>
+        <img src="./pnge/likusa/kecelje/6.png" class="keceljeStyle" id="kecelja6"/>
+
+    </div>
+
+    <script type="application/javascript">
+        function showHairOptions() {
+        document.getElementById('vlasy').style.visibility = 'visible';
+        document.getElementById('sukne').style.visibility = 'hidden';
+        document.getElementById('kecele').style.visibility = 'hidden';
+    }
+    function showSkirtOptions() {
+        document.getElementById('sukne').style.visibility = 'visible';
+        document.getElementById('vlasy').style.visibility = 'hidden';
+        document.getElementById('kecele').style.visibility = 'hidden';
+    }
+    function showKecelaOptions() {
+        document.getElementById('kecele').style.visibility = 'visible';
+        document.getElementById('vlasy').style.visibility = 'hidden';
+        document.getElementById('sukne').style.visibility = 'hidden';
+    }
+    function showHairStyle(id){
+        let hairstyles = ['hairstyle1', 'hairstyle2', 'hairstyle3', 'hairstyle4', 'hairstyle5' ];
+        let v = document.getElementById(id);
+        console.log(v.id);
+        let selected = v;
+        for(let i=0; i<hairstyles.length; i++){
+            document.getElementById(hairstyles[i]).style.display = 'none';
+        }
+        selected.style.display = 'initial'; 
+        
+    }
+
+    function showFirstSkirt(){
+        document.getElementById('skirtWhite').style.display='initial';
+    }
+
+    function showSkritsStyle(id){
+        let skirts = ['skirtWhite', 'skirtRed', 'skirtBlack', 'skirtYellow', 'skirtBlue', 'skirtOrange', 'skirtGreen', 'skirtGreen2', 'skirtPurple', 'skirtPink' ];
+        let s = document.getElementById(id);
+        console.log(s.id);
+        //let selected = s;
+        for(let i=0; i<skirts.length; i++){
+            document.getElementById(skirts[i]).style.display = 'none';
+        }
+        s.style.display = 'initial'; 
+        
+    }
+    function showPatter(id){
+        let patterns = ['linaje', 'botke'];
+        let p = document.getElementById(id);
+        console.log(p.id);
+        //let selected = s;
+        for(let i=0; i<patterns.length; i++){
+            document.getElementById(patterns[i]).style.display = 'none';
+        }
+        p.style.display = 'initial'; 
+    }
+    function showKecelje(id){
+        let kecelje = ['kecelja1', 'kecelja2', 'kecelja3', 'kecelja4', 'kecelja5', 'kecelja6'];
+        let k = document.getElementById(id);
+        console.log(k.id);
+        //let selected = s;
+        for(let i=0; i<kecelje.length; i++){
+            document.getElementById(kecelje[i]).style.display = 'none';
+        }
+        k.style.display = 'initial'; 
+    }
+    /*
+    function changeHair(id){
+        var hairstyle = document.getElementById(id);
+        var img = document.createElement('img');
+        if(hairstyle.id === "vlasy1"){
+            img.src="./pnge/likusa/vlasi/1.png";
+            //document.getElementById('body').appendChild(img);
+        }
+        if(hairstyle.id === "vlasy2"){
+            img.src="./pnge/likusa/vlasi/2.png";
+            //document.getElementById('body').appendChild(img);
+        }
+        if(hairstyle.id === "vlasy3"){
+            img.src="./pnge/likusa/vlasi/3.png";
+            //document.getElementById('body').appendChild(img);
+        }
+        if(hairstyle.id === "vlasy4"){
+            img.src="./pnge/likusa/vlasi/4.png";
+            //document.getElementById('body').appendChild(img);
+        }
+        if(hairstyle.id === "vlasy5"){
+            img.src="./pnge/likusa/vlasi/5.png";            
+        }
+        img.style.position = 'absolute';
+        img.style.top = '3%';
+        img.style.bottom = '1%'
+        img.style.right = '-10.5%';
+
+        document.getElementById('likusica').appendChild(img);
+
+    }
+    */
+    </script>
+  </body>
+</html>

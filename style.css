@@ -1,0 +1,238 @@
+body {
+  background-image: url("./pnge/pozadina.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.menu {
+  width: 36%;
+  height: 550px;
+  background-color: #efeed6;
+  border-radius: 30px;
+  margin-top: 3%;
+  margin-left: 3%;
+  float: left;
+}
+img {
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.item {
+  width: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.item.sukne {
+  background-color: #f4e0c0;
+  border-radius: 30px;
+  position: absolute;
+  left: 10%;
+  height: 430px;
+  width: 280px;
+  margin-top: -30%;
+  visibility: hidden;
+}
+.skrits {
+  margin-left: 15%;
+}
+.colors {
+  margin-top: 5%;
+  margin-left: 15%;
+}
+.pt1 {
+  display: -webkit-inline-box;
+}
+.pt2 {
+  display: -webkit-inline-box;
+}
+.pt3 {
+  display: -webkit-inline-box;
+}
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  margin-left: 20%;
+  margin-top: 5%;
+}
+.pinkC {
+  background-color: #ff4db3;
+}
+.redC {
+  background-color: #ff4d4c;
+}
+.orangeC {
+  background-color: #ff9600;
+}
+.yellowC {
+  background-color: #ffef3c;
+}
+.greenC {
+  background-color: #78e164;
+}
+.tirkizC {
+  background-color: #6ff5ae;
+}
+.blueC {
+  background-color: #57c3f0;
+}
+.purpleC {
+  background-color: #b274e6;
+}
+.blackC {
+  background-color: #36313a;
+}
+.whiteC {
+  background-color: #f9f1ff;
+}
+
+.pattern {
+  margin-left: 15%;
+}
+
+.item.vlasy {
+  background-color: #f4e0c0;
+  border-radius: 30px;
+  position: absolute;
+  left: 10%;
+  height: 430px;
+  width: 280px;
+  margin-top: -30%;
+  /*display: none;*/
+  /*visibility: hidden;*/
+}
+
+.item.kecela {
+  background-color: #f4e0c0;
+  border-radius: 30px;
+  position: absolute;
+  left: 10%;
+  height: 430px;
+  width: 280px;
+  margin-top: -30%;
+  visibility: hidden;
+}
+
+.gombik2:hover #vlasyGombik {
+  opacity: 0.6;
+  height: 90px;
+}
+.gombik5:hover #suknaGombik {
+  opacity: 0.6;
+  height: 90px;
+}
+.gombik6:hover #keceljaGombik {
+  opacity: 0.6;
+  height: 90px;
+}
+
+#vlasy1:hover,
+#vlasy2:hover,
+#vlasy3:hover,
+#vlasy4:hover,
+#vlasy5:hover {
+  opacity: 0.6;
+}
+
+#oblik1:hover {
+  opacity: 0.6;
+  height: 90px;
+}
+#bobke:hover,
+#ciari:hover {
+  opacity: 0.6;
+  height: 90px;
+}
+
+.circle.pinkC:hover,
+.circle.redC:hover,
+.circle.orangeC:hover,
+.circle.yellowC:hover,
+.circle.greenC:hover,
+.circle.tirkizC:hover,
+.circle.blueC:hover,
+.circle.purpleC:hover,
+.circle.blackC:hover,
+.circle.whiteC:hover {
+  height: 35px;
+  width: 35px;
+}
+#prva:hover,
+#druha:hover,
+#treca:hover,
+#stvrta:hover,
+#piata:hover,
+#siesta:hover {
+  opacity: 0.6;
+}
+
+.likusa {
+  position: relative;
+  left: 20%;
+  width: 20%;
+  overflow: hidden;
+}
+
+.likusa .hairstyle {
+  display: none;
+  margin: 0;
+  position: absolute;
+}
+#hairstyle1 {
+  top: 45px;
+  /*bottom: 1%;*/
+  right: -2px;
+  height: 220px;
+}
+#hairstyle2 {
+  top: 50px;
+  /*bottom: 1%;*/
+  right: 7px;
+  height: 205px;
+}
+#hairstyle3 {
+  top: 45px;
+  /*bottom: 1%;*/
+  right: -2px;
+  height: 220px;
+}
+#hairstyle4 {
+  top: 45px;
+  /*bottom: 1%;*/
+  right: 8px;
+  height: 205px;
+}
+#hairstyle5 {
+  top: 17px;
+  /*bottom: 1%;*/
+  right: 6px;
+  height: 205px;
+}
+
+.likusa .skirtsStyle {
+  display: none;
+  margin: 0;
+  position: absolute;
+}
+
+.skirtsStyle {
+  top: 232px;
+  /*bottom: 1%;*/
+  right: 4px;
+  height: 200px;
+}
+
+.likusa .keceljeStyle {
+  display: none;
+  margin: 0;
+  position: absolute;
+}
+
+.keceljeStyle {
+  top: 230px;
+  /*bottom: 1%;*/
+  right: 35px;
+  height: 170px;
+}
